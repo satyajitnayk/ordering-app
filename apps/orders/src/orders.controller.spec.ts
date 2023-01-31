@@ -13,10 +13,4 @@ describe('OrdersController', () => {
 
     ordersController = app.get<OrdersController>(OrdersController);
   });
-
-  describe('root', () => {
-    it('should return "Hello World!"', () => {
-      expect(ordersController.getHello()).toBe('Hello World!');
-    });
-  });
 });
